@@ -1,0 +1,90 @@
+body {
+	font-family: 'Arial', sans-serif;
+	color: #000;
+	background: #000 url('img/bg-texture.jpg') repeat;
+}
+
+a {
+	font-size: 1.5em;
+	color: #39F;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0F0;
+}
+
+h1 {
+	font-size: 1.750em;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-size: 1.500em;
+	color: #FFF;
+}
+
+.container {
+	background: #C5C5C5;
+}
+
+.nav {
+	font-size: 1em;
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+	margin-right: 30px;
+}
+
+.nav li img {
+	margin-right: 10px;
+}
+
+.control-buttons {
+	float: right;
+	text-align: right;
+}
+
+.copyright {
+	font-size: 1em;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.main-content {
+	border: ridge;
+	text-align: center;
+}
+
+.nav-buttons {
+    background-color: #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: auto;
+    border: solid;
+    vertical-align: top;
+}
+
+.nav-buttons:hover {
+	background-color: orange;
+}
+
+label {
+	font-size: 1.75em;
+}
+
+.leftside {
+	float: left;
+	text-align: right;
+}
+
+.rightside {
+	text-align: left;
+}

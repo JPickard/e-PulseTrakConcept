@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>E-PulseTrak.com</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	</head>
+
+	<body>
+		<div class="container clearfix">
+
+			<!-- Header Content -->
+			<header>
+
+				<!-- Company Logo -->
+				<div class="logo grid_6">
+					<img src="img/EPT-logo-grey.png" alt="ePulseTrak.com">
+				</div>
+
+				<!-- Universal Controls -->
+				<div class="control-buttons grid_6 omega">
+					<a href="#"><img id="calendar" src="img/calendar.gif" onmouseover="this.src='img/calendar_over.gif'" onmouseout="this.src='img/calendar.gif'" alt="calendar"></a>
+					<a href="http://69.64.0.167" target="_blank"><img id="email" src="img/email.gif" onmouseover="this.src='img/email_over.gif'" onmouseout="this.src='img/email.gif'" alt="email"></a>
+					<a href="login.html"><img id="logout" src="img/logout.gif" onmouseover="this.src='img/logout_over.gif'" onmouseout="this.src='img/logout.gif'" alt="logout"></a>
+				</div>
+
+				<!-- Navigation Bar -->
+				<div class="navbar grid_12 omega">
+					<ul class="nav">
+						<li name="home"><img src="img/icon_home.gif" alt="Home">
+							<input type="button" onclick="goHome()" value="Home" class="nav-buttons">
+						</li>
+						<li name="contacts"><img src="img/icon_contacts.gif" alt="Contacts">
+							<input type="button" onclick="goContacts()" value="Contacts" class="nav-buttons">
+						</li>
+						<li name="sales"><img src="img/icon_sales.gif" alt="Sales">
+							<input type="button" onclick="goSales()" value="Sales" class="nav-buttons">
+						</li>
+						<li name="bdc"><img src="img/icon_BDC.gif" alt="BDC">
+							<input type="button" onclick="goBDC()" value="BDC" class="nav-buttons">
+						</li>
+						<li name="inventory"><img src="img/icon_inventory.gif" alt="Inventory">
+							<input type="button" onclick="goInventory()" value="Inventory" class="nav-buttons">
+						</li>
+						<li name="marketing"><img src="img/icon_marketing.gif" alt="Marketing">
+							<input type="button" onclick="goMarketing()" value="Marketing" class="nav-buttons">
+						</li>
+						<li name="reports"><img src="img/icon_reports.gif" alt="Reports">
+							<input type="button" onclick="goReports()" value="Reports" class="nav-buttons">
+						</li>
+						<li name="tools"><img src="img/icon_tools.gif" alt="Tools">
+							<input type="button" onclick="goTools()" value="Tools" class="nav-buttons">
+						</li>
+						<li name="help"><img src="img/icon_help.gif" alt="Help">
+							<input type="button" onclick="goHelp()" value="Help" class="nav-buttons">
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<!-- Main Page Content -->
+			<div class="main-content grid_12 omega">
+				<iframe id="main-frame" src="home.shtml" height="800" width="98%" seamless="seamless"></iframe>
+			</div>
+
+			<!-- Copyright Footer Section  -->
+			<footer>
+				<div class="copyright grid_12 omega">
+					<p>
+						&copy; Copyright 2001-2013, <font color="purple">e</font><font color="black">-</font><font color="green">PULSE</font><font color="purple">Trak</font><font color="black">.</font><font color="purple">com</font><font color="black">. All Rights Reserved.</font>
+					</p>
+				</div>
+			</footer>
+		
+		</div>
+
+		<script>
+			function goHome(){
+				document.getElementById("main-frame").src="home.shtml";
+			}
+
+			function goContacts(){
+				document.getElementById("main-frame").src="contacts.shtml";
+			}
+
+			function goSales(){
+				document.getElementById("main-frame").src="sales.shtml";
+			}
+
+			function goBDC(){
+				document.getElementById("main-frame").src="BDC.shtml";
+			}		
+				
+			function goInventory(){
+				document.getElementById("main-frame").src="inventory.shtml";
+			}
+
+			function goMarketing(){
+				document.getElementById("main-frame").src="marketing.shtml";
+			}
+
+			function goReports(){
+				document.getElementById("main-frame").src="reports.shtml";
+			}
+
+			function goTools(){
+				document.getElementById("main-frame").src="tools.shtml";
+			}
+
+			function goHelp(){
+				document.getElementById("main-frame").src="help.shtml";
+			}
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>E-PulseTrak.com</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/grid.css" media="screen">
+	</head>
+
+	<body>
+		<div class="container clearfix">
+			<div class="main-body">
+				<p>Help!</p>
+			</div>
+		</div>
+	</body>
+
+</html>
